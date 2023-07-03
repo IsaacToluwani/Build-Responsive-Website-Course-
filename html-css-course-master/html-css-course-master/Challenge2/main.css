@@ -1,0 +1,69 @@
+/* General Styles */
+* {
+  font-family: sans-serif;
+}
+body {
+  border: 4px solid black;
+  line-height: 1.4;
+}
+
+/* Article Styles */
+.all-star {
+  text-align: center;
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.price-1 {
+  font-size: 23px;
+}
+
+.free-shipping {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #777;
+}
+
+.product-details{
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.details-list {
+  list-style: square;
+}
+
+/* Link Styles */
+.more-info:link{
+  color: black;
+}
+
+.more-info:visited{
+  color: rgb(146, 13, 35)
+}
+
+.more-info:hover{
+  color: blue;
+}
+
+.more-info:active{
+  color: red;
+}
+
+/* Button Styles */
+.add-cart {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: sans-serif;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.add-cart:hover {
+  background: white;
+  color: black;
+}
+
